@@ -25,20 +25,26 @@
         <Button
             android:id="@+id/btn_pause"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="125dp"
-            android:layout_height="125dp"/>
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/pause"
+            android:onClick="musicPause"/>
 
         <Button
             android:id="@+id/btn_play"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="125dp"
-            android:layout_height="125dp"/>
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/play"
+            android:onClick="musicPlay"/>
 
         <Button
             android:id="@+id/btn_stop"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="125dp"
-            android:layout_height="125dp"/>
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/stop"
+            android:onClick="musicStop"/>
 
     </LinearLayout>
 
