@@ -28,7 +28,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/pause"
-            android:onClick="musicPause"/>
+            android:onClick="musicPause"
+            android:layout_marginLeft="10dp"/>
 
         <Button
             android:id="@+id/btn_play"
@@ -36,7 +37,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/play"
-            android:onClick="musicPlay"/>
+            android:onClick="musicPlay"
+            android:layout_marginLeft="10dp"/>
 
         <Button
             android:id="@+id/btn_stop"
@@ -44,7 +46,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/stop"
-            android:onClick="musicStop"/>
+            android:onClick="musicStop"
+            android:layout_marginLeft="10dp"/>
 
     </LinearLayout>
 
